@@ -1,0 +1,18 @@
+[project]
+title = "Arlington Traffic Cameras"
+version = "1.0.0"
+port = 8501
+slug = "arlington-cameras"
+entrypoint = "main.py"  
+
+[branding]
+name = "Traffic Cam Viewer"
+primaryColor = "#007ACC"
+
+[data.Traffic_Cameras]
+type = "csv"
+path = "data/Traffic_Cameras.csv"  
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
